@@ -10,5 +10,5 @@ jobs:
         run: |
           echo "Event name : $GITHUB_EVENT_NAME"
           echo "Branch ref : $GITHUB_REF"
-          echo "Commit SHA : $GITHUB_SHA
+          echo "Commit SHA : $GITHUB_SHA"
           echo "Pushed by : $GITHUB_ACTOR"
