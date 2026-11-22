@@ -5,6 +5,7 @@
 // Day 1 never calls this. Day 2 uses it for:
 //   - actions/upload-artifact  (something to upload)
 //   - build -> test -> deploy  (a real "build" stage)
+// new comment
 
 import { mkdir, readdir, copyFile, writeFile, rm } from 'node:fs/promises';
 import { join } from 'node:path';
