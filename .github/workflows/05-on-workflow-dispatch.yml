@@ -11,6 +11,8 @@ on:
         options:
           - staging
           - production
+          - dev
+          - doc staging
       version:
         description: 'Version to deploy (e.g. 1.4.0)'
         required: false
