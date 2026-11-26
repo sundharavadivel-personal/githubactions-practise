@@ -12,6 +12,7 @@ jobs:
           echo "Arch     : $RUNNER_ARCH"        # -> X64
           echo "Home     : $HOME"
           echo "Temp dir : $RUNNER_TEMP"
+          date
 
   windows-job:
     runs-on: windows-latest     # PowerShell is the default shell here
